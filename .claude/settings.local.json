@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git config *)",
+      "Bash(gh auth *)",
+      "Bash(curl -s https://api.github.com/repos/selfish-workshop/workshop-toolkit/contents/.claude-plugin)",
+      "Bash(curl -s https://api.github.com/repos/selfish-workshop/workshop-toolkit/contents/plugins)",
+      "Bash(curl -s https://raw.githubusercontent.com/selfish-workshop/workshop-toolkit/main/.claude-plugin/marketplace.json)",
+      "Bash(curl -s https://api.github.com/repos/selfish-workshop/workshop-toolkit/contents/plugins/website-prd-builder)"
+    ]
+  }
+}
